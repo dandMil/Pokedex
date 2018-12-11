@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TensorFlow Android Camera Demo
 
 This folder contains an example application utilizing TensorFlow for Android
@@ -212,6 +213,10 @@ NDK).
 Full CMake support for the demo is coming soon, but for now it is possible to
 build the TensorFlow Android Inference library using
 [tensorflow/contrib/android/cmake](../../../tensorflow/contrib/android/cmake).
+=======
+# Pokedex
+image classifier for pokemon 
+>>>>>>> 3f5c6a4de5eeebeb3d825e78fe692c795fe8e306
 =======
 # Pokedex
 image classifier for pokemon 
