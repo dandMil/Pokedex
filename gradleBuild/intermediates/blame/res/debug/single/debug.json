@@ -20,10 +20,6 @@
         "source": "/Users/danmil0/Desktop/Projects/Android/Pokedex/res/drawable-mdpi/ic_action_info.png"
     },
     {
-        "merged": "/Users/danmil0/Desktop/Projects/Android/Pokedex/gradleBuild/intermediates/res/merged/debug/layout_activity_speech.xml.flat",
-        "source": "/Users/danmil0/Desktop/Projects/Android/Pokedex/res/layout/activity_speech.xml"
-    },
-    {
         "merged": "/Users/danmil0/Desktop/Projects/Android/Pokedex/gradleBuild/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
         "source": "/Users/danmil0/Desktop/Projects/Android/Pokedex/res/drawable-xhdpi/ic_launcher.png"
     },

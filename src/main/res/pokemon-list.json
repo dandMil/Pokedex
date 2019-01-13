@@ -1,0 +1,21 @@
+[{
+  "name": "Bulbasaur",
+  "category": "tiny bulb",
+  "type": "grass:",
+  "desc": "One of 3 starters from Kanto"
+},
+
+  {
+    "name": "Squirtle",
+    "category": "tiny turtle",
+    "type": "water:",
+    "desc": "One of 3 starters from Kanto"
+  },
+
+  {
+    "name": "Charmander",
+    "category": "tiny lizard",
+    "type": "fire:",
+    "desc": "One of 3 starters from Kanto"
+  }
+]
