@@ -1,3 +1,4 @@
 *.apk
 *.idea
-gradleBuild/intermediates/instant-run-apk/debug/Pokedex-debug.apk
+gradleBuild/
+
