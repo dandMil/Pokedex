@@ -46,26 +46,25 @@ public final class R {
     public static final int tile=0x7f050003;
   }
   public static final class id {
-    public static final int black=0x7f060000;
-    public static final int container=0x7f060001;
-    public static final int debug_overlay=0x7f060002;
-    public static final int grid_layout=0x7f060003;
-    public static final int list_text_item=0x7f060004;
-    public static final int list_view=0x7f060005;
-    public static final int overlay=0x7f060006;
-    public static final int quit=0x7f060007;
-    public static final int results=0x7f060008;
-    public static final int textView=0x7f060009;
+    public static final int Category=0x7f060000;
+    public static final int Desc=0x7f060001;
+    public static final int Type=0x7f060002;
+    public static final int black=0x7f060003;
+    public static final int container=0x7f060004;
+    public static final int debug_overlay=0x7f060005;
+    public static final int grid_layout=0x7f060006;
+    public static final int list_text_item=0x7f060007;
+    public static final int overlay=0x7f060008;
+    public static final int results=0x7f060009;
     public static final int texture=0x7f06000a;
     public static final int tracking_overlay=0x7f06000b;
   }
   public static final class layout {
     public static final int activity_camera=0x7f070000;
-    public static final int activity_speech=0x7f070001;
-    public static final int camera_connection_fragment=0x7f070002;
-    public static final int camera_connection_fragment_stylize=0x7f070003;
-    public static final int camera_connection_fragment_tracking=0x7f070004;
-    public static final int list_text_item=0x7f070005;
+    public static final int camera_connection_fragment=0x7f070001;
+    public static final int camera_connection_fragment_stylize=0x7f070002;
+    public static final int camera_connection_fragment_tracking=0x7f070003;
+    public static final int list_text_item=0x7f070004;
   }
   public static final class string {
     public static final int activity_name_classification=0x7f080000;

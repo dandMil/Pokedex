@@ -1,0 +1,4 @@
+#Sat Jan 12 20:45:03 EST 2019
+base.0=/Users/danmil0/Desktop/Projects/Android/Pokedex/gradleBuild/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
