@@ -15,9 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66768e89-38b7-4d86-931e-bfb6267db5c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="66768e89-38b7-4d86-931e-bfb6267db5c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1515,22 +1513,6 @@
             </path>
             <path>
               <item name="Pokedex" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Pokedex" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Pokedex" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Pokedex" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="res" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pokedex" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Pokedex" type="feadf853:AndroidModuleNode" />
-              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Pokedex" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -1840,11 +1822,11 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.888412" weight="0.42142856" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8226037" weight="0.26142856" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" sideWeight="0.8712446" visible="true" weight="0.21285714" />
+      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.8712446" visible="true" weight="0.21285714" />
       <window_info id="Captures" order="15" weight="0.24964234" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.89413446" weight="0.42285714" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" />
       <window_info anchor="right" id="Gradle" order="3" />
