@@ -15,7 +15,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66768e89-38b7-4d86-931e-bfb6267db5c4" name="Default" comment="" />
+    <list default="true" id="66768e89-38b7-4d86-931e-bfb6267db5c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +76,14 @@
               <caret line="266" column="48" selection-start-line="266" selection-start-column="48" selection-end-line="266" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#8158#8428#0" expanded="true" />
+                <element signature="e#8427#8428#0" expanded="true" />
+                <element signature="e#8461#10212#0" expanded="true" />
+                <element signature="e#9367#9375#0" expanded="true" />
+                <element signature="e#10211#10212#0" expanded="true" />
+                <element signature="e#12217#14600#0" expanded="true" />
+                <element signature="e#13545#13569#0" expanded="true" />
+                <element signature="e#14599#14600#0" expanded="true" />
                 <element signature="e#14065#14066#0" expanded="true" />
                 <element signature="e#14126#14127#0" expanded="true" />
                 <element signature="e#14187#14188#0" expanded="true" />
@@ -1818,7 +1828,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1826,12 +1835,12 @@
       <window_info id="Image Layers" order="4" />
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12875536" side_tool="true" visible="true" weight="0.63" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12875536" side_tool="true" visible="true" weight="0.21285714" />
       <window_info anchor="right" id="Preview" order="6" weight="0.16328011" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.888412" weight="0.42142856" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8226037" weight="0.26142856" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" sideWeight="0.8712446" visible="true" weight="0.63" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="7" sideWeight="0.8712446" visible="true" weight="0.21285714" />
       <window_info id="Captures" order="15" weight="0.24964234" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="7" />
@@ -2396,6 +2405,14 @@
           <caret line="266" column="48" selection-start-line="266" selection-start-column="48" selection-end-line="266" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#8158#8428#0" expanded="true" />
+            <element signature="e#8427#8428#0" expanded="true" />
+            <element signature="e#8461#10212#0" expanded="true" />
+            <element signature="e#9367#9375#0" expanded="true" />
+            <element signature="e#10211#10212#0" expanded="true" />
+            <element signature="e#12217#14600#0" expanded="true" />
+            <element signature="e#13545#13569#0" expanded="true" />
+            <element signature="e#14599#14600#0" expanded="true" />
             <element signature="e#14065#14066#0" expanded="true" />
             <element signature="e#14126#14127#0" expanded="true" />
             <element signature="e#14187#14188#0" expanded="true" />
