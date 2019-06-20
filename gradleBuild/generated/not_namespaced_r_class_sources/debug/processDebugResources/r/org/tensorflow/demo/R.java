@@ -43,7 +43,8 @@ public final class R {
     public static final int border=0x7f050000;
     public static final int ic_action_info=0x7f050001;
     public static final int ic_launcher=0x7f050002;
-    public static final int tile=0x7f050003;
+    public static final int ic_pokeball=0x7f050003;
+    public static final int tile=0x7f050004;
   }
   public static final class id {
     public static final int Category=0x7f060000;
@@ -66,27 +67,30 @@ public final class R {
     public static final int camera_connection_fragment_tracking=0x7f070003;
     public static final int list_text_item=0x7f070004;
   }
+  public static final class mipmap {
+    public static final int ic_launcher=0x7f080000;
+  }
   public static final class string {
-    public static final int activity_name_classification=0x7f080000;
-    public static final int activity_name_detection=0x7f080001;
-    public static final int activity_name_speech=0x7f080002;
-    public static final int activity_name_stylize=0x7f080003;
-    public static final int app_name=0x7f080004;
-    public static final int camera_error=0x7f080005;
-    public static final int description_info=0x7f080006;
-    public static final int request_permission=0x7f080007;
+    public static final int activity_name_classification=0x7f090000;
+    public static final int activity_name_detection=0x7f090001;
+    public static final int activity_name_speech=0x7f090002;
+    public static final int activity_name_stylize=0x7f090003;
+    public static final int app_name=0x7f090004;
+    public static final int camera_error=0x7f090005;
+    public static final int description_info=0x7f090006;
+    public static final int request_permission=0x7f090007;
   }
   public static final class style {
-    public static final int AppBaseTheme=0x7f090000;
-    public static final int AppTheme=0x7f090001;
-    public static final int FullscreenActionBarStyle=0x7f090002;
-    public static final int FullscreenTheme=0x7f090003;
-    public static final int MaterialTheme=0x7f090004;
-    public static final int Theme_Base=0x7f090005;
-    public static final int Theme_Sample=0x7f090006;
-    public static final int Widget=0x7f090007;
-    public static final int Widget_SampleMessage=0x7f090008;
-    public static final int Widget_SampleMessageTile=0x7f090009;
+    public static final int AppBaseTheme=0x7f0a0000;
+    public static final int AppTheme=0x7f0a0001;
+    public static final int FullscreenActionBarStyle=0x7f0a0002;
+    public static final int FullscreenTheme=0x7f0a0003;
+    public static final int MaterialTheme=0x7f0a0004;
+    public static final int Theme_Base=0x7f0a0005;
+    public static final int Theme_Sample=0x7f0a0006;
+    public static final int Widget=0x7f0a0007;
+    public static final int Widget_SampleMessage=0x7f0a0008;
+    public static final int Widget_SampleMessageTile=0x7f0a0009;
   }
   public static final class styleable {
     /**

@@ -73,7 +73,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
   private static final int TF_OD_API_INPUT_SIZE = 300;
   //private static final String TF_OD_API_MODEL_FILE = "file:///android_asset/ssd_mobilenet_v1_android_export.pb";
-  private static final String TF_OD_API_MODEL_FILE = "file:///android_asset/frozen_inference_graph_squirtle.pb";
+  private static final String TF_OD_API_MODEL_FILE = "file:///android_asset/frozen_inference_graph_combined.pb";
   //private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/coco_labels_list.txt";
   private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/poke-label.txt";
   // Configuration values for tiny-yolo-voc. Note that the graph is not included with TensorFlow and
@@ -258,7 +258,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   }
 
   OverlayView trackingOverlay;
-
+//ugly solution
   private void load(){
 
     BufferedReader br = null;
@@ -283,9 +283,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
   @Override
   protected void processImage() {
-      LOGGER.d("Processing image called");
+      LOGGER.i("Processing image called");
     if (!hasLoaded){
-        LOGGER.d("Calling load");
+        LOGGER.i("Calling load");
       load();
 
     }
@@ -359,15 +359,22 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                 for (final Classifier.Recognition result : results) {
                   final RectF location = result.getLocation();
                   if (location != null && result.getConfidence() >= minimumConfidence) {
-                    DetectorActivity.super.initViews();
-                    canvas.drawRect(location, paint);
 
-                    for (String key : pokemonMap.keySet()) {
+                    //Not sure about this...
+                    runOnUiThread(new Runnable() {
 
-                      if (result.getTitle().equals(key)) {
-                        DetectorActivity.super.updateView(pokemonMap.get(key));
+                      @Override
+                      public void run() {
+
+                        // Stuff that updates the UI
+                        LOGGER.i("Pokemon found: "+result.getTitle());
+                        DetectorActivity.super.initViews();
+                        canvas.drawRect(location, paint);
+                        DetectorActivity.super.updateView(pokemonMap.get(result.getTitle()));
+
                       }
-                    }
+                    });
+
                     cropToFrameTransform.mapRect(location);
                     result.setLocation(location);
                     mappedRecognitions.add(result);

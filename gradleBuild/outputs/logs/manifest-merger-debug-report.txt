@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:18:1-76:12
-MERGED from [org.tensorflow:tensorflow-android:1.12.0] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.12.0.aar/f9a52272b18b4794a2091e7eac5d3d5e/AndroidManifest.xml:2:1-8:12
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.13.1.aar/39c034db31d58150ce8c34019c2fd0bd/AndroidManifest.xml:2:1-8:12
 	package
 		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:19:5-34
 	xmlns:android
@@ -38,8 +38,8 @@ INJECTED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xm
 		INJECTED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml
 application
 ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:29:5-74:19
-MERGED from [org.tensorflow:tensorflow-android:1.12.0] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.12.0.aar/f9a52272b18b4794a2091e7eac5d3d5e/AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.12.0] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.12.0.aar/f9a52272b18b4794a2091e7eac5d3d5e/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.13.1.aar/39c034db31d58150ce8c34019c2fd0bd/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] /Users/danmil0/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.13.1.aar/39c034db31d58150ce8c34019c2fd0bd/AndroidManifest.xml:5:5-6:19
 	android:label
 		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:31:9-41
 	android:debuggable
@@ -55,7 +55,7 @@ ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:4
 	android:screenOrientation
 		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:46:19-55
 	android:label
-		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:47:19-66
+		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:47:19-45
 	android:name
 		ADDED from /Users/danmil0/Desktop/Projects/Android/Pokedex/AndroidManifest.xml:45:19-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER

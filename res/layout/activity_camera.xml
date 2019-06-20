@@ -23,7 +23,7 @@
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-
+        android:theme="@style/AppBaseTheme"
         android:layout_height="match_parent"
         android:gravity="bottom"
         android:orientation="vertical"
@@ -34,8 +34,8 @@
                 "child views" or "children" of the linear layout -->
         <TextView
             android:id="@+id/Category"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:gravity="top"
             android:text="Category"
@@ -43,16 +43,17 @@
 
         <TextView
             android:id="@+id/Type"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="426dp"
+            android:layout_height="62dp"
             android:layout_gravity="bottom"
             android:gravity="center"
-            android:text="Type" />
+            android:text="Type"
+            android:textAlignment="viewStart" />
 
         <TextView
             android:id="@+id/Desc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="368dp"
+            android:layout_height="66dp"
             android:layout_gravity="bottom"
             android:gravity="bottom"
             android:text="Description?" />

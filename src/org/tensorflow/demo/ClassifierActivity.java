@@ -36,7 +36,7 @@ import org.tensorflow.demo.env.ImageUtils;
 import org.tensorflow.demo.env.Logger;
 import org.tensorflow.demo.R; // Explicit import needed for internal Google builds.
 
-public class ClassifierActivity extends CameraActivity implements OnImageAvailableListener {
+public class  ClassifierActivity extends CameraActivity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();
 
   protected static final boolean SAVE_PREVIEW_BITMAP = false;

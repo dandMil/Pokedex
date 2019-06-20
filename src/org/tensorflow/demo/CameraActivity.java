@@ -59,7 +59,7 @@ import test.JsonTesterKt;
 
 public abstract class CameraActivity extends Activity
         implements OnImageAvailableListener, Camera.PreviewCallback {
-  private static final Logger LOGGER = new Logger();
+  private final Logger LOGGER = new Logger();
 
   private static final int PERMISSIONS_REQUEST = 1;
 
@@ -476,6 +476,7 @@ public abstract class CameraActivity extends Activity
   }
 
   public void updateView(Pokemon pokemon){
+
     typeView.setText(PokedexConstants.Type+pokemon.getType());
     categoryView.setText(PokedexConstants.Category+pokemon.getCategory());
     descView.setText(pokemon.getDesc());
