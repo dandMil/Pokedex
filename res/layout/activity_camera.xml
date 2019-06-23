@@ -43,20 +43,19 @@
 
         <TextView
             android:id="@+id/Type"
-            android:layout_width="426dp"
-            android:layout_height="62dp"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom"
-            android:gravity="center"
-            android:text="Type"
-            android:textAlignment="viewStart" />
+            android:gravity="left"
+            android:text="Type" />
 
         <TextView
             android:id="@+id/Desc"
-            android:layout_width="368dp"
-            android:layout_height="66dp"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:gravity="bottom"
-            android:text="Description?" />
+            android:text="Description" />
 
     </LinearLayout>
 
